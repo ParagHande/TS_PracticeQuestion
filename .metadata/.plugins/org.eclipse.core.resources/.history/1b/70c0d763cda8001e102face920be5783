@@ -1,0 +1,18 @@
+package com.practice.arrays;
+
+public class AverageOfEvenNumber {
+
+	public static void main(String[] args) {
+		int[] arrayNumber = {1,2,3,4,5,6,7,8,9};
+		int even = 0;
+		
+		for (int i : arrayNumber) {
+//			if(arrayNumber[i]%2==0){  
+//				System.out.println(arrayNumber[i]);  
+//				even = even+arrayNumber[i];
+//				}  
+		}
+		System.out.println(even);
+	}
+
+}

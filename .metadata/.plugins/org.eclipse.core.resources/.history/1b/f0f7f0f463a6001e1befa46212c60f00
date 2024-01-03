@@ -1,0 +1,22 @@
+package com.practice.ts1;
+
+public class PalindromeNumber {
+	public static void main(String[] args) {
+		
+		int num = 512;
+		int originalNum = num;
+		int reverse = 0;
+		
+		while (num != 0) {
+			int remainder  = num % 10;          // reminder = 512 % 10 = 2
+			reverse = reverse * 10 + remainder; // reverse  = 0 * 10 + reminder = 0*10+2 = 2
+			num = num/10;						// num      = 512/10 = 51.2 // next num value is = 52
+		}
+		reverse = 25;
+		reverse = 21;
+		System.out.println(reverse);
+		
+		
+	}
+
+}

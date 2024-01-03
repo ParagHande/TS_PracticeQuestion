@@ -1,0 +1,9 @@
+package com.practice.algorithm;
+
+public class ArmstrongNumber {
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

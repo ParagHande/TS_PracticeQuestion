@@ -1,0 +1,19 @@
+package com.practice.algorithm;
+
+public class ArmstrongNumber {
+	public static void main(String[] args) {
+		
+		int num = 321;
+		
+		while (num != 0) {
+			int remainder  = num % 10;   
+			System.out.println(remainder);
+//			reverseNum = reverseNum * 10 + remainder; // reverse  = 0 * 10 + reminder = 0*10+2 = 2
+			num = num/10;						
+		}
+		
+		
+	}
+	
+
+}

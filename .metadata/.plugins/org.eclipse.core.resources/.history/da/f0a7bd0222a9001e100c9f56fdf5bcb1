@@ -1,0 +1,23 @@
+package com.practice.algorithm;
+
+public class ArmstrongNumber {
+	public static void main(String[] args) {
+		
+		int num = 321;
+		int cube = 0;
+		
+		while (num != 0) {
+			int remainder  = num % 10;   
+			System.out.println(remainder);
+			cube = cube + (remainder*remainder*remainder);
+			num = num/10;						
+		}
+		System.out.println(cube);
+		if(num == cube) {
+			System.out.println(num + " is an Armstrong Number");
+		}else System.out.println(num + " is Not an Armstrong Number");
+		
+	}
+	
+
+}

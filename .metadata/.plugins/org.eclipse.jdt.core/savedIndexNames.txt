@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Parag\Desktop\TS_Eclipse_Practice\.metadata\.plugins\org.eclipse.jdt.core
+3488565665.index
+1865797976.index
+981636921.index
